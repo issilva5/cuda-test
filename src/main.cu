@@ -1,4 +1,5 @@
-#include <utils.cuh>
+#include <utils.h>
+#include <cuda_runtime.h>
 
 __global__ void ndvi(double* reflectance_band3, double* reflectance_band4, double* ndvi, int width_band) {
 

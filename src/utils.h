@@ -3,7 +3,7 @@
 #ifndef __UTILS_H__
 #define __UTILS_H__
 #include <stdio.h>
-#include <cuda_routine.h>
+#include <stdlib.h>
 #include <tiffio.h>
 
 static void HandleError( cudaError_t err,
@@ -17,3 +17,4 @@ static void HandleError( cudaError_t err,
 }
 #define HANDLE_ERROR( err ) (HandleError( err, __FILE__, __LINE__ ))
 
+#endif
