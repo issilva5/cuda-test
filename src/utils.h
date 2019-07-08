@@ -5,6 +5,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <tiffio.h>
+#include <iostream>
 
 static void HandleError( cudaError_t err,
                          const char *file,
