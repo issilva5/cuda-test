@@ -1,3 +1,6 @@
+dirTest/
+in
+*test*
 input/
 output/
 .vscode/
